@@ -21,9 +21,12 @@ Missing values in numerical columns were replaced with the median column value, 
 Using scikit-learn, Logistic Regression and Random Forest models were trained, tested and evaluated. Logistic Regression is a baseline statistical classification model that estimates the probability of loan default using coefficients. Random Forest is an ensemble model that uses multiple decision trees and captures nonlinear relationships. An attempt was made to implement Support Vector Machine as well, but after a few hours of runtime the model training was not successfully executed. This is likely due to the size of the dataset and the computational complexity of the SVM algorithm, so SVM was not included in the subsequent testing, evaluation and model comparison. 
 
 The models were evaluated by accuracy, precision, recall and f1-score. The Random Forest model scored higher than Logistic Regression across all four metrics. With \~0.88 accuracy, \~0.92 precision, \~0.57 recall and \~0.70 f1-score, the Random Forest model correctly classified the most instances, resulted in the least false positives (precision) and least false negatives (recall), and had the better balance between precision and recall (F1-score). A confusion matrix for each shows that both models misclassified more defaulted loans than not defaulted loans, and that the Random Forest model correctly classified more instances than the Logistic Regression model.  
-<img width="895" height="555" alt="image1" src="https://github.com/user-attachments/assets/3aa695ed-68c2-4677-adef-1ccba8ae0095" />
+<img width="895" height="200" alt="image1" src="https://github.com/user-attachments/assets/3aa695ed-68c2-4677-adef-1ccba8ae0095" />
 <img width="451" height="361" alt="image2" src="https://github.com/user-attachments/assets/a3f0fe13-19ef-49f6-81ef-7314c157d44d" />
 <img width="448" height="361" alt="image3" src="https://github.com/user-attachments/assets/ca0b7d25-51c6-4344-9035-fa89365a6535" />
+<img height="200" alt="image1" src="https://github.com/user-attachments/assets/3aa695ed-68c2-4677-adef-1ccba8ae0095" />
+<img height="200" alt="image2" src="https://github.com/user-attachments/assets/a3f0fe13-19ef-49f6-81ef-7314c157d44d" />
+<img height="200" alt="image3" src="https://github.com/user-attachments/assets/ca0b7d25-51c6-4344-9035-fa89365a6535" />
 
 In real-word context, the misclassification of not default as default could lead to a financial loss for the loan provider. The misclassification of loan default as not default could lead to missed opportunities to offer a loan to some applicants that are wrongly identified as risky, leading to financial loss as well. The Random Forest model succeeds at both classifications more often than the Logistic Regression model. 
 
