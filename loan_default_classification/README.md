@@ -22,6 +22,7 @@ Using scikit-learn, Logistic Regression and Random Forest models were trained, t
 
 The models were evaluated by accuracy, precision, recall and f1-score. The Random Forest model scored higher than Logistic Regression across all four metrics. With \~0.88 accuracy, \~0.92 precision, \~0.57 recall and \~0.70 f1-score, the Random Forest model correctly classified the most instances, resulted in the least false positives (precision) and least false negatives (recall), and had the better balance between precision and recall (F1-score). A confusion matrix for each shows that both models misclassified more defaulted loans than not defaulted loans, and that the Random Forest model correctly classified more instances than the Logistic Regression model.  
 <img height="300" alt="image1" src="https://github.com/user-attachments/assets/3aa695ed-68c2-4677-adef-1ccba8ae0095" />
+
 <img height="300" alt="image2" src="https://github.com/user-attachments/assets/a3f0fe13-19ef-49f6-81ef-7314c157d44d" />
 <img height="300" alt="image3" src="https://github.com/user-attachments/assets/ca0b7d25-51c6-4344-9035-fa89365a6535" />
 
