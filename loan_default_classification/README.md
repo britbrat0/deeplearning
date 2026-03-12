@@ -26,7 +26,7 @@ The models were evaluated by accuracy, precision, recall and f1-score. The Rando
 <img height="300" alt="image2" src="https://github.com/user-attachments/assets/a3f0fe13-19ef-49f6-81ef-7314c157d44d" />
 <img height="300" alt="image3" src="https://github.com/user-attachments/assets/ca0b7d25-51c6-4344-9035-fa89365a6535" />
 
-In real-word context, the misclassification of not default as default could lead to a financial loss for the loan provider. The misclassification of loan default as not default could lead to missed opportunities to offer a loan to some applicants that are wrongly identified as risky, leading to financial loss as well. The Random Forest model succeeds at both classifications more often than the Logistic Regression model. 
+In real-word context, the misclassification of not default as default could lead to a financial loss for the loan provider. The misclassification of loan default as not default could lead to missed opportunities to offer a loan to some applicants that are wrongly identified as risky. The Random Forest model succeeds at both classifications more often than the Logistic Regression model. 
 
 **Conclusion**  
 This project demonstrates how supervised machine learning can be used to classify loan applicants as likely to default or not. Using historical data to train and test two models, it is apparent that Random Forest is superior for the task of assessing the risk of loan applicants.
