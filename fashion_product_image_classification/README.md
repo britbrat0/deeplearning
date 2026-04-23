@@ -1,6 +1,20 @@
 # Fashion Product Image Classification
 **Brittany D'Erasmo**
 
+## Overview
+A CNN-based image classifier trained on the Fashion Product Images dataset 
+to classify products into Apparel, Accessories, and Footwear.
+
+**Dataset**
+- Source: Kaggle - Fashion Product Images (Small)
+- 19,800 balanced samples across 3 categories
+- 70/15/15 train/validation/test split
+
+**Model**
+- 3-block CNN with BatchNormalization
+- Evaluated with 4 configurations: Baseline, Augmentation, Dropout, Combined
+
+
 ## Introduction
 
 The purpose of this project was to train a Convolutional Neural Network (CNN) that can be used to classify images of fashion products. Using Python libraries, a Sequential CNN was trained, tested and evaluated on existing labeled images, then optimized for improvement. The result provides insight to which version of the model would perform best in real-world fashion and e-commerce applications such as visual search, product recommendation systems, trend analysis and more.
