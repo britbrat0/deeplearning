@@ -34,7 +34,16 @@ All models achieved excellent accuracy, with the improvement models producing on
 
 ## Confusion Matrix
 
-*Add confusion matrix image here — save from Colab using `plt.savefig('confusion_matrix.png')` and upload to this repo.*
+<img width="389" height="411" alt="download" src="https://github.com/user-attachments/assets/dbd9b951-8085-430c-9e8b-5ac8c03589f1" />
+<img width="389" height="411" alt="download (8)" src="https://github.com/user-attachments/assets/5a2c053b-7e34-42b0-850b-69a153d8e19c" />
+<img width="389" height="411" alt="download (7)" src="https://github.com/user-attachments/assets/0b06524a-5de5-408a-b7cb-609a56dd1e19" />
+<img width="389" height="411" alt="download (6)" src="https://github.com/user-attachments/assets/606d7563-71ba-4ca9-9349-c87d940bef12" />
+<img width="389" height="411" alt="download (5)" src="https://github.com/user-attachments/assets/6c3b22cb-71bd-4bd4-962c-8e732a47fa3b" />
+<img width="389" height="411" alt="download (4)" src="https://github.com/user-attachments/assets/510a729d-1662-46a1-a749-fcbb25661515" />
+<img width="389" height="411" alt="download (3)" src="https://github.com/user-attachments/assets/628b4b3f-97e8-413d-882d-c8f908de6810" />
+<img width="389" height="411" alt="download (2)" src="https://github.com/user-attachments/assets/30dcf675-2987-4d94-8fb1-7a55ee50466e" />
+<img width="389" height="411" alt="download (1)" src="https://github.com/user-attachments/assets/1ce087cb-33d9-491a-b831-bff4f9954bc0" />
+
 
 ![Confusion Matrix](confusion_matrix.png)
 
