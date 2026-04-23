@@ -41,7 +41,7 @@ All models achieved excellent accuracy, with the improvement models producing on
 
 ## Combined Model Actual and Predicted Classes
 
-<img width="100" height="411" alt="download" src="https://github.com/user-attachments/assets/dbd9b951-8085-430c-9e8b-5ac8c03589f1" />
+<img width="50%" height="50%" alt="download" src="https://github.com/user-attachments/assets/dbd9b951-8085-430c-9e8b-5ac8c03589f1" />
 <img width="100" height="411" alt="download (8)" src="https://github.com/user-attachments/assets/5a2c053b-7e34-42b0-850b-69a153d8e19c" />
 <img width="100" height="411" alt="download (7)" src="https://github.com/user-attachments/assets/0b06524a-5de5-408a-b7cb-609a56dd1e19" />
 <img width="100" height="411" alt="download (6)" src="https://github.com/user-attachments/assets/606d7563-71ba-4ca9-9349-c87d940bef12" />
