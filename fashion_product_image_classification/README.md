@@ -6,7 +6,7 @@ A CNN-based image classifier trained on the Fashion Product Images dataset
 to classify products into Apparel, Accessories, and Footwear.
 
 **Dataset**
-- Source: Kaggle - Fashion Product Images (Small)
+- [Fashion Product Images (Small) — Kaggle](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small)
 - 19,800 balanced samples across 3 categories
 - 70/15/15 train/validation/test split
 
@@ -72,7 +72,3 @@ This project demonstrates how Convolutional Neural Networks can be used to class
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-
-## Dataset
-
-[Fashion Product Images (Small) — Kaggle](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small)
