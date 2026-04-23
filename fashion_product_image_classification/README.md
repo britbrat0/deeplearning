@@ -36,7 +36,7 @@ In a first attempt to improve the accuracy of the classifier, data augmentation 
 
 All models achieved excellent accuracy, with the improvement models producing only slight differences. The baseline model achieved 97.21% validation accuracy with a small gap of 0.79% between training and validation accuracy, indicating very slight overfitting. The augmentation model achieved slightly higher accuracy than the baseline (97.44%) and a train-val gap of -0.70% indicating no overfitting. The dropout model achieved 97.71% validation accuracy — the highest of all four models — and a train-val gap of -0.34%, indicating no overfitting. The combined augmentation and dropout model achieved 96.53% validation accuracy and the largest negative train-val gap of -1.50%, indicating the strongest generalization across all models and no overfitting. Although the dropout model achieved the highest raw accuracy, the combined model is the best overall performer as it is most balanced for accuracy and generalization, making it the most suitable model for real-world fashion product classification.
 
-### Results Summary
+**Results Summary**
 
 | Model | Train Acc | Val Acc | Gap |
 |---|---|---|---|
@@ -45,13 +45,13 @@ All models achieved excellent accuracy, with the improvement models producing on
 | Dropout | ~97.37% | 97.71% | -0.34% |
 | Combined | ~95.03% | 96.53% | -1.50% |
 
-### Confusion Matrix
+**Confusion Matrix**
 | | |
 |---|---|
 | <img width="347" height="304" alt="download" src="https://github.com/user-attachments/assets/53d66ad7-056e-4880-9907-edda10980b4b" /> | <img width="347" height="304" alt="download (3)" src="https://github.com/user-attachments/assets/cdbf8e84-6903-4ac9-9ce1-21168c2f884d" /> |
 | <img width="347" height="304" alt="download (2)" src="https://github.com/user-attachments/assets/7ad06c10-a70c-413e-b6c5-a52e43c96ddb" /> | <img width="347" height="304" alt="download (1)" src="https://github.com/user-attachments/assets/b7bfbe82-9772-4d4d-89f6-150d00c80241" /> |
 
-### Combined Model Actual and Predicted Classes
+**Combined Model Actual and Predicted Classes**
 | | | |
 |---|---|---|
 | <img width="233.4" height="246.6" src="https://github.com/user-attachments/assets/dbd9b951-8085-430c-9e8b-5ac8c03589f1" /> | <img width="233.4" height="246.6" src="https://github.com/user-attachments/assets/5a2c053b-7e34-42b0-850b-69a153d8e19c" /> | <img width="233.4" height="246.6" src="https://github.com/user-attachments/assets/0b06524a-5de5-408a-b7cb-609a56dd1e19" /> |
