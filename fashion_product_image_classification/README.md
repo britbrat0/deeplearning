@@ -1,5 +1,4 @@
 # Fashion Product Image Classification
-**Brittany D'Erasmo**
 
 ## Overview
 A CNN-based image classifier trained on the Fashion Product Images dataset 
