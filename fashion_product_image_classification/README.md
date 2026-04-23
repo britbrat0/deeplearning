@@ -35,9 +35,8 @@ All models achieved excellent accuracy, with the improvement models producing on
 ## Confusion Matrix
 | | |
 |---|---|
-| <img width="240" height="254" alt="download" src="https://github.com/user-attachments/assets/53d66ad7-056e-4880-9907-edda10980b4b" /> | <img width="240" height="254" alt="download (3)" src="https://github.com/user-attachments/assets/cdbf8e84-6903-4ac9-9ce1-21168c2f884d" /> |
-| <img width="240" height="254" alt="download (2)" src="https://github.com/user-attachments/assets/7ad06c10-a70c-413e-b6c5-a52e43c96ddb" /> | <img width="240" height="254" alt="download (1)" src="https://github.com/user-attachments/assets/b7bfbe82-9772-4d4d-89f6-150d00c80241" /> |
-
+| <img width="347" height="304" alt="download" src="https://github.com/user-attachments/assets/53d66ad7-056e-4880-9907-edda10980b4b" /> | <img width="347" height="304" alt="download (3)" src="https://github.com/user-attachments/assets/cdbf8e84-6903-4ac9-9ce1-21168c2f884d" /> |
+| <img width="347" height="304" alt="download (2)" src="https://github.com/user-attachments/assets/7ad06c10-a70c-413e-b6c5-a52e43c96ddb" /> | <img width="347" height="304" alt="download (1)" src="https://github.com/user-attachments/assets/b7bfbe82-9772-4d4d-89f6-150d00c80241" /> |
 
 ## Combined Model Actual and Predicted Classes
 | | | |
