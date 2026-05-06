@@ -52,7 +52,7 @@ In a first attempt to improve accuracy, a Naive Bayes model was trained and eval
 
 ## Observations
 
-The best performing model is Logistic Regression with `max_features=30000`, achieving an accuracy score of nearly 75%. This is relatively high accuracy for a ten-class classification problem. The model still performed worse on predicting the Healthy Living and Wellness categories. This is likely due to the text in those categories having many words in common, as visualized in the word clouds below.
+The best performing model is Logistic Regression with `max_features=30000`, achieving an accuracy score of nearly 75%. This is relatively high accuracy for a ten-class classification problem. It also has f1-scores of 86% for predicting Style & Beauty and 84% for Food & Drink. As before adjusting max_features, the model performed worse on predicting the Healthy Living and Wellness categories. This is likely due to the text in those categories having many words in common, as visualized in the word clouds below. These two categories are the primary source of misclassification and bring the overall accuracy down. Merging them could potentially push overall accuracy closer to 80%."
 
 |||
 |---|---|
