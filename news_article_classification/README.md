@@ -19,7 +19,7 @@ There are 42 category values in the original dataset. Due to the scarcity of sam
 
 Next, some text processing was done. The text in the headline and short_description attributes was concatenated and converted to lowercase. Punctuation, numbers, special characters and unnecessary spaces were removed. Words were tokenized and stopwords were removed using the SpaCy library. The resulting input text contains an average of 16 tokens per sample. Word clouds were used to visualize the distribution of words in a few of the categories. In the Food & Drink word cloud, for example, 'recipe', 'food', 'cocktail' and 'photo' appear largest, indicating that they are common words in that category.
 
-Finally, class labels were encoded and the dataset was split into 70% training and 30% test. Using the TF-IDF (Term Frequency-Inverse Document Frequency) method, the input data was converted into numerical matrices with a maximum of 5,000 features.
+Finally, class labels were encoded and the dataset was split into 70% training and 30% test. Using the TF-IDF (Term Frequency-Inverse Document Frequency) method, the input data was converted into a sparse numerical matrix with a maximum vocabulary of 5,000 features.
 
 ## Model Training and Evaluation
 
