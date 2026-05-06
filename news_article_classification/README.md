@@ -31,7 +31,7 @@ Using scikit-learn, a Logistic Regression and an SVM (Support Vector Machine) mo
 
 ## Model Improvement
 
-In a first attempt to improve accuracy, a Naive Bayes model was trained, and evaluated with an accuracy of ~71%, resulting in no improvement. Next, cross-validation was performed on the baseline Logistic Regression, SVM and Naive Bayes models, resulting in ~72%, ~71%, and ~71% accuracy, respectively: little to no improvement. In the third improvement attempt, the maximum number of features of the input vector was increased from 5,000 to 30,000, and the Logistic Regression and SVM models were retrained. This slightly improved the performance of both models, reaching ~75% and ~74% respective accuracy. A confusion matrix for each model shows an increase in correctly predicted labels across all categories.
+In a first attempt to improve accuracy, a Naive Bayes model was trained and evaluated, resulting in an accuracy of ~71% which is not an improvement from the previous models. Next, cross-validation was performed on the baseline Logistic Regression, SVM and Naive Bayes models, resulting in ~72%, ~71%, and ~71% accuracy, respectively: little to no improvement. In the third improvement attempt, the maximum number of features of the input vector was increased from 5,000 to 30,000, and the Logistic Regression and SVM models were retrained. This slightly improved the performance of both models, reaching ~75% and ~74% respective accuracy. A confusion matrix for each model shows an increase in correctly predicted labels across all categories.
 
 | Model | Improvement Technique | Accuracy |
 |---|---|---|
