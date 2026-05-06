@@ -11,17 +11,6 @@
 
 The purpose of this project was to build a multi-class classifier that can identify the category of news articles. Using Python libraries, two machine learning models were trained, tested and evaluated using existing labeled news articles, then optimized for improvement. The result provides insight to which version of the models would perform best in real-world applications such as content organization and recommendation systems.
 
-## Requirements
-
-- Python 3.x
-- pandas, scikit-learn, nltk, spacy, matplotlib, wordcloud
-
-Install dependencies:
-```bash
-pip install pandas scikit-learn nltk spacy matplotlib wordcloud
-python -m spacy download en_core_web_sm
-```
-
 ## Dataset and Preprocessing
 
 The dataset used for this project is the [News Category Dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset) found on Kaggle, which contains 209,527 entries of news articles. Each entry includes a link to an online article, headline, category, short description, authors and date. For this project, only headline, short_description and category are considered, and category is used as the target variable.
