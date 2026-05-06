@@ -62,4 +62,4 @@ Another limitation is that there is a small amount of text per training sample (
 
 ## Conclusion
 
-This project demonstrates how machine learning can be used to classify news articles by category. A large dataset of close to 60,000 news articles were processed and then used to train, test and evaluate a Logistic Regression and an SVM model. Three improvement methods were applied and resulted in the Logistic Regression model demonstrating the best prediction accuracy when trained using a TF-IDF vocabulary of 30,000 features.
+This project demonstrates how machine learning can be used to classify news articles by category. A large dataset of close to 60,000 news articles were processed and then used to train, test and evaluate a Logistic Regression and an SVM model. Three improvement methods were applied and resulted in the Logistic Regression model demonstrating the best prediction accuracy when trained using a TF-IDF vocabulary of 30,000 features. Methods for further improvement were identified to include merging similar news categories, expanding the amount of input text per sample and using transformer-based models. 
