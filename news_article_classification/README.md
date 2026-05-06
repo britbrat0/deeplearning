@@ -58,7 +58,7 @@ The best performing model was Logistic Regression with `max_features=30000`, ach
 |---|---|
 | ![Wellness Word Cloud](images/wordcloud_wellness.png) | ![Healthy Living Word Cloud](images/wordcloud_healthy_living.png) |
 
-Another limitation is that there is a small amount of text per training sample (headline + short_description includes only ~16 tokens on average). Additionally, word order is not considered by TF-IDF. Potential improvements include using data that includes entire articles or longer summaries, merging Healthy Living and Wellness categories, using bigrams and/or trigrams, and using word embeddings or transformer-based models (e.g., BERT) which understand word context and semantics.
+Another limitation is that there is a small amount of text per training sample (headline + short_description includes only ~16 tokens on average). Additionally, word order is not considered by TF-IDF. Further potential improvements include using data that includes entire articles or longer summaries, using bigrams and/or trigrams, and using word embeddings or transformer-based models (e.g., BERT) which understand word context and semantics.
 
 ## Conclusion
 
