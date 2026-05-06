@@ -13,7 +13,7 @@ The purpose of this project was to build a multi-class classifier that can ident
 
 ## Dataset and Preprocessing
 
-The dataset used for this project is the [News Category Dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset) found on Kaggle, which contains 209,527 entries of news articles. Each entry includes a link to an online article, headline, category, short description, authors and date. For this project, only headline, short_description and category are considered, and category is used as the target variable.
+The dataset used for this project is the [News Category Dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset) found on Kaggle, which contains 209,527 entries. Each entry represents a news article and includes link, headline, category, short description, authors and date. For this project, only headline, short_description and category are considered, and category is used as the target variable.
 
 There are 42 category values in the original dataset. Due to the scarcity of samples in most categories and increased computation needed with more than ten classes, only the ten most represented categories were used as classes, and samples belonging to the remaining categories were dropped. The value counts of the ten categories ranged from 5,592 to 35,602 samples per category. To avoid class bias and ensure that each class contributes equally to training, the dataset was further reduced and balanced to include 5,592 samples from each category, resulting in a new dataset of 59,920 samples, evenly distributed across Business, Entertainment, Food & Drink, Healthy Living, Parenting, Politics, Queer Voices, Style & Beauty, Travel and Wellness.
 
