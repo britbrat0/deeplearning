@@ -25,7 +25,6 @@ Finally, class labels were encoded and the dataset was split into 70% training a
 
 Using scikit-learn, a Logistic Regression and an SVM (Support Vector Machine) model was trained, tested and evaluated. The accuracy of these baseline models was ~73% and ~72% respectively. The models were also evaluated by class predictions on precision, recall and f1-score. A confusion matrix for each shows high-range values of correct predictions (yellow and yellow-green) in most categories with mid-range values of correct predictions (blue-green and blue) in Healthy Living and Wellness.
 
-| Logistic Regression | SVM |
 |---|---|
 | ![Logistic Regression Confusion Matrix - Baseline](images/lr_confusion_matrix_baseline.png) | ![SVM Confusion Matrix - Baseline](images/svm_confusion_matrix_baseline.png) |
 
@@ -46,7 +45,6 @@ In a first attempt to improve accuracy, a Naive Bayes model was trained, and eva
 
 > **Best model:** Logistic Regression with `max_features=30000` — **0.7491 accuracy**
 
-| Logistic Regression | SVM |
 |---|---|
 | ![Logistic Regression Confusion Matrix - Improved](images/lr_confusion_matrix_improved.png) | ![SVM Confusion Matrix - Improved](images/svm_confusion_matrix_improved.png) |
 
@@ -54,7 +52,6 @@ In a first attempt to improve accuracy, a Naive Bayes model was trained, and eva
 
 The best performing model is Logistic Regression trained with `max_features=30000`, achieving an accuracy score of nearly 75%. This is relatively high accuracy for a ten-class classification problem. The model still performed worse on predicting the Healthy Living and Wellness categories. This is likely due to the text in those categories having many words in common, as visualized in the word clouds below.
 
-| Wellness | Healthy Living |
 |---|---|
 | ![Wellness Word Cloud](images/wordcloud_wellness.png) | ![Healthy Living Word Cloud](images/wordcloud_healthy_living.png) |
 
