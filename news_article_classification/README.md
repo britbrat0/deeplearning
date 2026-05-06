@@ -52,7 +52,7 @@ In a first attempt to improve accuracy, a Naive Bayes model was trained and eval
 
 ## Observations
 
-The best performing model is Logistic Regression trained with `max_features=30000`, achieving an accuracy score of nearly 75%. This is relatively high accuracy for a ten-class classification problem. The model still performed worse on predicting the Healthy Living and Wellness categories. This is likely due to the text in those categories having many words in common, as visualized in the word clouds below.
+The best performing model is Logistic Regression with `max_features=30000`, achieving an accuracy score of nearly 75%. This is relatively high accuracy for a ten-class classification problem. The model still performed worse on predicting the Healthy Living and Wellness categories. This is likely due to the text in those categories having many words in common, as visualized in the word clouds below.
 
 |||
 |---|---|
@@ -62,4 +62,4 @@ Another limitation is that there is a small amount of text per training sample (
 
 ## Conclusion
 
-This project demonstrates how machine learning can be used to classify news articles by category. A large dataset of close to 60,000 news articles were processed and then used to train, test and evaluate a Logistic Regression and an SVM model. Three improvement methods were applied and resulted in the Logistic Regression model demonstrating the best prediction accuracy when trained on a maximum of 30,000 input features.
+This project demonstrates how machine learning can be used to classify news articles by category. A large dataset of close to 60,000 news articles were processed and then used to train, test and evaluate a Logistic Regression and an SVM model. Three improvement methods were applied and resulted in the Logistic Regression model demonstrating the best prediction accuracy when trained using a TF-IDF vocabulary of 30,000 features.
