@@ -23,7 +23,7 @@ Finally, class labels were encoded and the dataset was split into 70% training a
 
 ## Model Training and Evaluation
 
-Using scikit-learn, a Logistic Regression and an SVM (Support Vector Machine) model was trained, tested and evaluated. The accuracy of these baseline models was ~73% and ~72% respectively. The models were also evaluated by class predictions on precision, recall and f1-score. A confusion matrix for each shows high-range values of correct predictions (yellow and yellow-green) in most categories with mid-range values of correct predictions (blue-green and blue) in Healthy Living and Wellness.
+Using scikit-learn, a Logistic Regression and an SVM (Support Vector Machine) model was trained, tested and evaluated. The accuracy of these baseline models was ~73% and ~72% respectively. The models were also evaluated on per-class precision, recall and f1-score. A confusion matrix for each shows high-range values of correct predictions (yellow and yellow-green) in most categories with mid-range values of correct predictions (blue-green and blue) in Healthy Living and Wellness.
 
 |||
 |---|---|
